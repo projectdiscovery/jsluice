@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/Mzack9999/jsluice"
+	"github.com/projectdiscovery/jsluice"
 )
 
 func extractURLs(opts options, filename string, source []byte, output chan string, errs chan error) {

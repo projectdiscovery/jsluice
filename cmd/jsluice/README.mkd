@@ -58,7 +58,7 @@ To install `jsluice` you need [Go](https://go.dev/doc/install).
 Once Go is installed and configured, run:
 
 ```
-▶ go install github.com/BishopFox/jsluice/cmd/jsluice@latest
+▶ go install github.com/projectdiscovery/jsluice/cmd/jsluice@latest
 ```
 
 If everything worked correctly, you should be able to run `jsluice --help` and

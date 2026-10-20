@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/Mzack9999/jsluice"
+	"github.com/projectdiscovery/jsluice"
 )
 
 func extractSecrets(opts options, filename string, source []byte, output chan string, errs chan error) {

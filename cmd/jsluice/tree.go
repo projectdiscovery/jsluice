@@ -3,7 +3,7 @@ package main
 import (
 	"strings"
 
-	"github.com/Mzack9999/jsluice"
+	"github.com/projectdiscovery/jsluice"
 )
 
 func printTree(opts options, filename string, source []byte, output chan string, errs chan error) {

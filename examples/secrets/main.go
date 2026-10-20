@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Mzack9999/jsluice"
+	"github.com/projectdiscovery/jsluice"
 )
 
 func main() {

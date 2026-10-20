@@ -1,6 +1,6 @@
 # jsluice
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/BishopFox/jsluice.svg)](https://pkg.go.dev/github.com/BishopFox/jsluice)
+[![Go Reference](https://pkg.go.dev/badge/github.com/projectdiscovery/jsluice.svg)](https://pkg.go.dev/github.com/projectdiscovery/jsluice)
 
 `jsluice` is a Go package and [command-line tool](/cmd/jsluice/) for extracting URLs, paths, secrets,
 and other interesting data from JavaScript source code.
@@ -8,20 +8,20 @@ and other interesting data from JavaScript source code.
 If you want to do those things right away: look at the [command-line tool](/cmd/jsluice/).
 
 If you want to integrate `jsluice`'s capabilities with your own project: look at the [examples](/examples/),
-and read the [package documentation](https://pkg.go.dev/github.com/BishopFox/jsluice).
+and read the [package documentation](https://pkg.go.dev/github.com/projectdiscovery/jsluice).
 
 ## Install
 
 To install the command-line tool, run:
 
 ```
-▶ go install github.com/BishopFox/jsluice/cmd/jsluice@latest
+▶ go install github.com/projectdiscovery/jsluice/cmd/jsluice@latest
 ```
 
 To add the package to your project, run:
 
 ```
-▶ go get github.com/BishopFox/jsluice
+▶ go get github.com/projectdiscovery/jsluice
 ```
 
 ## Extracting URLs

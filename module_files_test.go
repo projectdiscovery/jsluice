@@ -31,9 +31,9 @@ func TestNoCompiledBinaries(t *testing.T) {
 		if err != nil {
 			return err
 		}
-		defer f.Close()
 		head := make([]byte, 4)
 		n, _ := f.Read(head)
+		_ = f.Close()
 		for _, m := range magics {
 			if n >= len(m) && bytes.Equal(head[:len(m)], m) {
 				t.Errorf("%s is a compiled binary", path)

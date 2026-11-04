@@ -1,6 +1,6 @@
 module github.com/projectdiscovery/jsluice
 
-go 1.24.0
+go 1.26.0
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
@@ -14,5 +14,5 @@ require (
 
 require (
 	github.com/andybalholm/cascadia v1.3.2 // indirect
-	golang.org/x/net v0.15.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 )
